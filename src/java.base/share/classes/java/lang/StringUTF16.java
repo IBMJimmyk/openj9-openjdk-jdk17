@@ -40,7 +40,7 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
 import static java.lang.String.UTF16;
 import static java.lang.String.LATIN1;
 
-final class StringUTF16 {
+public final class StringUTF16 {
 
     public static byte[] newBytesFor(int len) {
         if (len < 0) {
